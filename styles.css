@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    flex:1;
+}
+
+main {
+    background-color: rgb(245, 245, 245);
+    flex: 2;
+    height: 100vh;
+}
+
+.hero-section {
+    padding: 50px;
+    
+}
