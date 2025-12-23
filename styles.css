@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -18,9 +20,62 @@ main {
     background-color: rgb(245, 245, 245);
     flex: 2;
     height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hero-section {
     padding: 50px;
-    
+    padding-right: 200px;
+}
+
+h1, p, label {
+    font-family: 'Inter';
+}
+label {
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: 0.18em;
+}
+
+.form-container {
+    background-color: white;
+    padding: 50px;
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.294));
+}
+
+#the-form {
+    max-width: 400px;
+}
+
+fieldset {
+    border: none;
+    padding-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+}
+
+.submission-section {
+    padding: 50px;
+}
+
+.submission-section button {
+    border: none;
+    border-radius: 10px;
+    padding: 1em 50px;
+    background-color: rgb(74, 111, 25);
+
+    color: white;
+    font-weight: bold;
+
+    filter: drop-shadow(2px 2px 15px);
 }

@@ -24,27 +24,39 @@
             <h1>Let's do this!</h1>
             <form action="" id="the-form">
                 <fieldset>
-                    <label for="first-name">First name</label>
-                    <input id="first-name" type="text">
-                    <label for="last-name">Last name</label>
-                    <input id="last-name" type="text">
+                    <div class="form-packet">
+                        <label for="first-name">First name</label>
+                        <input id="first-name" type="text">
+                    </div>
+                    <div class="form-packet">
+                        <label for="last-name">Last name</label>
+                        <input id="last-name" type="text">
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <label for="email">Email</label>
-                    <input id="email" type="email">
-                    <label for="phone-number">Phone number</label>
-                    <input id="phone-number" type="tel">
+                    <div class="form-packet">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                    </div>
+                    <div class="form-packet">
+                        <label for="phone-number">Phone number</label>
+                        <input id="phone-number" type="tel">
+                    </div>
                 </fieldset>
                 <fieldset>
-                    <label for="password">Password</label>
-                    <input id="password" type="password">
-                    <label for="confirm-password">Conform password</label>
-                    <input for="confirm-password type="password">
+                    <div class="form-packet">
+                        <label for="password">Password</label>
+                        <input id="password" type="password">
+                    </div>
+                    <div class="form-packet">
+                        <label for="confirm-password">Confirm password</label>
+                        <input for="confirm-password" type="password">
+                    </div>
                 </fieldset>
             </form>
         </div>
 
-        <div>
+        <div class="submission-section">
             <button type="submit" form="the-form">Create Account</button>
             <p>Already have an account? <a href="no link rn...">Sign in.</a></p>
         </div>
